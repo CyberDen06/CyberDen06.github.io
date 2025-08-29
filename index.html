@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwadotun Dennis Ilesanmi</title>
+    <style>
+        /* Modern CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+        }
+
+        a {
+            color: #00ff88;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #00ff88, #007bff);
+            color: #0a0a0a;
+            padding: 4rem 0;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: rgba(10, 10, 10, 0.8);
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            margin: 0 1.5rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            
+        }
+
+        nav a:hover {
+            color: #00ff88;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 4rem;
+        }
+
+        .section h2 {
+            font-size: 2rem;ffffffffffffffffffff
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #00ff88;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 50px;
+            height: 3px;
+            background: #00ff88;
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #00ff88;
+        }
+
+        .card p {
+            color: #b0b0b0;
+        }
+
+        .card .date {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Skills List */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skills-list li {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #111;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            color: #777;
+        }
+        .sizing{
+            width:100%;
+            height:50%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Oluwadotun Dennis Ilesanmi</h1>
+        <p>A Data Analyst that drives data-oriented decisions for business & product development through valuable insights. My vision is to become a strategic advisor for businesses to develop better products that solve problems.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- About Section -->
+        <article id="about">
+            <h2 class="major">About</h2>
+            <span class="image main"><img src="Images/My Pic.jpg" alt="" /></span>
+            <p>Hello! I am Dennis. A Data Analyst with a passion for analyzing data and communicating insights to help you make smart business decisions. 
+                I'm also an aspiring Data Scientist with interest in the Marketing / Products business domain. Transforming raw data into actionable insights is my calling and I'm doing this to make a lasting impact. I would help YOU make smart decisions with data.</p>							        
+        </article>
+
+        <!-- Projects Section -->
+      <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3> Product & Marketing Performance Analysis
+               </h3> 
+                   <span class="image main"><a href="https://drive.google.com/file/d/1Zf8O1_PgUnL41DgaWmWOowjMwgrX8N5y/view?usp=sharing"><img src="Images/P & M Dash.png" alt="" class="sizing"/> </span> </a>
+                </h3>
+                <h4>Tools: Excel. SQL. Power BI.</h4>
+                <H5><a href="https://drive.google.com/file/d/12OjtMHn7jr1N4W1x6PZnYQSciD2KWWLG/view?usp=drive_link">ANALYSIS REPORT</a></H5>
+                <p>Conducted analysis to provide insights that can aid improved marketing & product development strategies. Identifying key Product & Marketing growth influencers and providing recommendations to further utilize them for growth.</p>
+            </div>
+
+        <div class="card">
+                <h3><a href=""></a>Company Performance Report - Sales Analysis</h3> 
+                <span class="image main"><a href="https://drive.google.com/file/d/12OjtMHn7jr1N4W1x6PZnYQSciD2KWWLG/view?usp=sharing"><img src="Images/Sales Analysis Dash.png" alt="" class="sizing"/></span> </a>
+                <h4>Tools: Excel. SQL. Power BI.</h4> 
+                <h5><a href="https://drive.google.com/file/d/12OjtMHn7jr1N4W1x6PZnYQSciD2KWWLG/view?usp=sharing">ANALYSIS REPORT</a></h5>
+                <p>Conducted analysis to uncover insights into the company's Sales Performance for its portfolio of products. Identifying Yearly Profit, Top selling Segments, Top Seling Products, and Top 5 selling Countries. These insights were critical for driving strategic decision-making, optimizing resource allocation, and enhancing profitability.</p>
+            </div>
+            <div class="card">
+                <h3><a href=""></a>Bike Buyers' Analysis </h3>
+                <span class="image main"><a href="https://drive.google.com/file/d/1kd5EJOdAfGcioTh_71HJ-tslGU_VhdP9/view?usp=sharing"><img src="Images/Bike Sales Dash.png" alt="" class="sizing"/></span></a>
+                <h4>Tools: Excel. SQL. Power BI.</h4>
+                <h5><a href="https://drive.google.com/file/d/1kd5EJOdAfGcioTh_71HJ-tslGU_VhdP9/view?usp=sharing">ANALYSIS REPORT</a></h5>
+                <p> Uncovered insights into factors that drive customers’ bike 
+purchases. To achieve this, I analyzed factors such as Income, Commute 
+Distance, Age bracket, Occupation, and filtered by Marital Status, 
+Region, Education, and Gender.</p>
+            </div>
+            <div class="card">
+                <h3><a href="https://drive.google.com/file/d/11GDNlVvw0mPSIOmS30ReUYKAUjQ09f_q/view?usp=sharing">Cluster Analysis of smart contract risks</a></h3>
+                <a href="https://drive.google.com/file/d/11GDNlVvw0mPSIOmS30ReUYKAUjQ09f_q/view?usp=sharing"><img src="Images/Cluster Anal.png" alt="Dashboard" class="sizing"></a>
+                <h4>Tools: Excel. SQL. Python.</h4>
+                  <h5><a href="https://drive.google.com/file/d/11GDNlVvw0mPSIOmS30ReUYKAUjQ09f_q/view?usp=sharing">ANALYSIS REPORT</a></h5>
+                <p>Utilized unsupervised machine learning techniques to perform cluster analysis, uncovering patterns and commonalities among vulnerable smart contracts.  Identifying critical vulnerabilities and providing actionable recommendations to enhance Web3 security.</p>
+            </div>
+            <div class="card">
+                <h3>Frequency and Correlation Analysis of smart contract risks</h3>
+                <a href="https://drive.google.com/file/d/113K7-8mt3GfN00nKNtaSIG8_IJhmN52G/view?usp=sharing"><img src="Images/Frequency & Correlation Analysis.png" alt="Dashboard" class="sizing"></a></h3>
+                <h4>Tools: Excel. SQL. Python.</h4>
+                <h5><a href="https://drive.google.com/file/d/1dML0pA23CC8JbODna44jCWvq3K59GZ7A/view?usp=sharing">ANALYSIS REPORT</a></h5>
+                <p>Conducted frequency and correlation analysis of smart contract vulnerabilities to identify prevalent risks and their interdependencies. Provided a detailed report on findings and mitigation strategies.</p>
+            </div>
+       </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="card">
+                <h3>Webacy</h3>
+                <h4>Web3 Security Data Analyst</h4>
+                <p class="date">August 2024 - October 2024</p>
+                <p>Worked as a Data Analyst, focused on collecting and analyzing vulnerabilities in smart contracts to develop smart measures for enhanced security and mitigating users' loss of funds in Web3. By applying data analysis to develop smarter security solutions, this led to the development of a Predictive Security Alert System, an enterprise software product that has gained traction amongst Web3 users for safegurading their digital assets.</p>
+            </div>
+            <div class="card">
+                <h3>The Kushcare Foundation</h3>
+                <h4>Data & Operations Manager</h4>
+                <p class="date"> October 2021 - July 2024</p>
+                <p>Worked at the intersection of managing operational data and reporting to optimizing processes for enhanced organizational performance. This involved influencing the development of strategic initiatives through campaigm performance tracking and overall operational analysis that increased visibility and support from the society. Driving the NGO to achieving success in its purpose.  </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Data Management</li>
+                <li>Excel</li>
+                <li>SQL</li>
+                <li>Power BI</li>
+                <li>Python </li>
+                <li>Data Analysis & Visualization</li>
+                <li>Storytelling & Reporting</li>
+                <li>Communication</li>
+                <li>Teamwork & Collaboration</li>
+                <li>Critical Thinking & Problem Solving</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>If you'd like to get in touch, feel free to reach out via <a href="mailto:oluwadotundennisilesanmi@gmail.com">Email, <a href="https://www.linkedin.com/in/cyberrock">LinkedIn</a>.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Portfolio - Oluwadotun Dennis Ilesanmi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
